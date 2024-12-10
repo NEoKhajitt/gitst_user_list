@@ -1,0 +1,4 @@
+.venv*
+.vscode/*
+pub_gist_tool.egg-info
+__pycache__
