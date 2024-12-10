@@ -1,0 +1,22 @@
+[build]
+requires = [
+  "setuptools==70.0.0",
+  "wheel==0.38.4",
+  ]
+
+[project]
+name = "pub-gist-tool"
+version = "0"
+dependencies = [
+  "coloredlogs==15.0.1",
+  "fastapi==0.115.6",
+  "requests==2.32.3",
+  "uvicorn==0.32.1",
+  ]
+
+[project.optional-dependencies]
+dev = [
+  ]
+test = [
+  "pytest==8.3.4",
+  ]
